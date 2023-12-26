@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="https://kit.fontawesome.com/2d8eb20fb5.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <a href="#" class="logo"><img src="Logo.png" alt="logo portfolio"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h4>Hello, my name is</h4>
+            <h1>Faizal Akbar <span>Budiansyah</span></h1>
+            <h3>Pasundan University Student</h3>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="MyPhoto.jpg" alt="Foto Saya">
+        </div>
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Halo, saya Faizal Akbar Budiansyah, mahasiswa baru di Jurusan Teknik Informatika. Saya adalah seorang mahasiswa yang saat ini sedang mengejar gelar Sarjana di Universitas Pasundan. Saya memiliki hasrat yang besar dalam dunia teknologi dan koding. Sebagai seseorang yang selalu ingin memahami lebih dalam tentang teknologi, saya memiliki keinginan untuk berkontribusi pada perkembangan dunia digital. Keinginan ini mendorong saya untuk bergabung dengan Jurusan Teknik Informatika, tempat di mana saya dapat menggali lebih dalam tentang pemrograman, pengembangan perangkat lunak, dan teknologi terkini.</p>
+            <a href="#" class="btn">Contact</a>
+        </div>
+    </section>
+
+    <!-- Skill -->
+    <section class="skill" id="skill">
+        <div class="main-text">
+            <h2>My Skill</h2>
+        </div>
+
+        <div class="porfolio-content">
+            <div class="row">
+                <img src="logohtml.png" alt="Logo skill html">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h6>HTML</h6>
+                        <p>"Pemula yang antusias dalam mempelajari dasar-dasar HTML untuk menciptakan website sederhana."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="porfolio-content">
+            <div class="row">
+                <img src="logocss.png" alt="Logo skill html">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h6>CSS</h6>
+                        <p>"Pemula yang bersemangat belajar teknik styling CSS untuk meningkatkan tampilan website."</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Hobby -->
+    <section class="hobby" id="hobby">
+        <div class="main-text">
+            <h2>My Hobby</h2>
+        </div>
+
+        <div class="hobby-content">
+            <div class="box">
+                <i class="fa-solid fa-futbol"></i>
+                <h3>Football</h3>
+                <p>"Jadikan setiap peluang sebagai peluang gol, dan setiap tantangan sebagai kesempatan untuk menang. Sepak bola mengajarkan aku arti sejati dari perjuangan."</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>Gaming</h3>
+                <p>"Bukan hanya bermain game, tapi merasakannya. Setiap klik, setiap gerakan, adalah langkah menuju kemenangan."</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-music"></i>
+                <h3>Music</h3>
+                <p>"Tak ada batasan di dunia musik. Setiap genre adalah petualangan baru, dan setiap lagu adalah perjalanan emosional."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact Me</h2>
+            <h4>Let's Work Together</h4>
+            <div class="contact-list">
+                <li><a href="#">Rancaekek - Kab. Bandung - Indonesia</a></li>
+                <li><a href="#">faizalakbarbudiansyah@gmail.com</a></li>
+                <li><a href="#">+62 895-3123-7392</a></li>
+            </div>
+    
+            <div class="contact-icons">
+                    <a href="https://facebook.com/rpattinson"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/_fzl17"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/kasul30403088"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="form-input">
+                <input type="text" name="Name" id="Name" placeholder="Enter Your Name" required>
+                <input type="email" name="Email" id="Email" placeholder="Enter Your Email" required>
+                <input type="subject" name="Subject" id="Subject" placeholder="Enter Your Email" required>
+                <textarea name="Message" id="Message" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Developed with love by Faizal Akbar Budiansyah &copy; 2023</p>
+    </div>
+
+    <!-- scroll top -->
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js link -->
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+</html>
